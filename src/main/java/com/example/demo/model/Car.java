@@ -24,7 +24,7 @@ public class Car {
 	@GeneratedValue(strategy = GenerationType.AUTO ) //database will generate unique id
 	@Column(name = "Id") //id column will be in table 
 	private int id;
-	
+	//aded new coment for test reason
 	@NotEmpty
 	@NotNull
 	@Size(min = 3 , max = 20) //rakstiskai vertibais ir Size
