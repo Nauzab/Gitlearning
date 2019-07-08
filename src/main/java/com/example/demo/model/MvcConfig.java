@@ -15,4 +15,6 @@ public class MvcConfig implements WebMvcConfigurer {
         registry.addViewController("/login").setViewName("login"); //will create later
     }
 
+//adend ewadsa
+
 }
